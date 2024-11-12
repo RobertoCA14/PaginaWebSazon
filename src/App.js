@@ -33,10 +33,10 @@ export default function App() {
             path="/shoppingcart"
             component={() => <ShoppingCart cart={cart} />}
           />
-          <Route
+          {/* <Route
             path="/footer"
             component={() => <ShoppingCart cart={contacto} />}
-          />
+          /> */}
         </Switch>
       </div>
       <Footer />
